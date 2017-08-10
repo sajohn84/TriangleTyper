@@ -25,7 +25,7 @@ namespace TriangleTyper
             Console.ReadLine();
         }
 
-
+        //Method which takes the 3 user inputs for each side's length and then calculates the type of trangle depending on the lengths of the sides.
         static string triangleMethod(int sideAInput, int sideBInput, int sideCInput)
         {
             int sideA = 3;

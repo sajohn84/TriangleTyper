@@ -10,10 +10,12 @@ namespace TriangleTyper
     {
         static void Main(string[] args)
         {
+            //declaration of variables for each side of the triangle.
             int sideAInput;
             int sideBInput;
             int sideCInput;
 
+            //Reading inputs from the user for each side of the triangle.
             Console.WriteLine("Enter the length of side A: ");
             sideAInput = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter the length of side B: ");
